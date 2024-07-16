@@ -6,3 +6,50 @@
   font-weight: 400;
   font-style: normal;
 }
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+
+/* header styles */
+
+/* navbar styles */
+.navbar, .banner{
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0px auto;
+}
+.brand{
+    margin-left: 120px;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.nav-items{
+    list-style: none;
+    padding-left: 30px;
+    
+}
+.nav-links{
+    padding-right: 120px;
+
+}
+.nav-links>li a{
+    text-decoration: none;
+}
+    .bg-light{
+        background-color: rgba(255, 144, 14, 0.1);
+    }
+    /* dark-1 */
+    .text-div-gray{
+        color: rgb(19, 19, 19);
+    }
+    /* dark02 */
+    .text-gray{
+        color: rgb(66, 66, 66);
+    }
+    /* dark03 */
+    .text-light-gray{
+        color: rgb(114, 114, 114);
+    }
+    /* list-style: none; */
